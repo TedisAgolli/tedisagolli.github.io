@@ -18,7 +18,6 @@ function displayUrl(form) {
   let [label, logo, color, style] = ["label", "logo", "color", "style"]
     .map(e => document.getElementById(e).value.trim())
     .filter(e => e != undefined);
-  console.log(label);
   let shieldsParams = new URLSearchParams({
     label,
     logo,
