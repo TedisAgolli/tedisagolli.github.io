@@ -15,14 +15,18 @@ function displayUrl(form) {
     "https://maps.googleapis.com/maps/api/distancematrix/json?";
   let googleMapsUrl = googleMapsBaseUrl + googleParams;
 
-  let [label, logo, color, style] = ["label", "logo", "color", "style"]
-    .map(e => document.getElementById(e).value.trim())
-    .filter(e => e != undefined);
+  let shieldsVisualParams = {};
+  ["label", "logo", "color", "style"].forEach(e => {
+    let formVal = document.getElementById(e).value.trim();
+    if (formVal != "") {
+      shieldsVisualParams[e] = formVal;
+    }
+  });
+
+  console.log(shieldsVisualParams);
+
   let shieldsParams = new URLSearchParams({
-    label,
-    logo,
-    color,
-    style,
+    ...shieldsVisualParams,
     url: googleMapsUrl,
     query: "$.rows[0].elements[0].duration_in_traffic.text"
   });
@@ -31,9 +35,6 @@ function displayUrl(form) {
   let shieldsFullQuery = shieldsBaseQuery + shieldsParams;
   let badge = document.getElementById("badge");
   badge.src = shieldsFullQuery;
-  badge.style.display = "block";
   let genUrl = document.getElementById("generatedUrl");
   genUrl.value = shieldsFullQuery;
-  genUrl.style.display = "block";
-  document.getElementById("adviceText").style.display = "block";
 }
