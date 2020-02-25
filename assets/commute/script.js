@@ -35,4 +35,5 @@ function displayUrl(form) {
   let genUrl = document.getElementById("generatedUrl");
   genUrl.value = shieldsFullQuery;
   genUrl.style.display = "block";
+  document.getElementById("adviceText").style.display = "block";
 }
