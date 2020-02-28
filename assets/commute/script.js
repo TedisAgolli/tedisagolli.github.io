@@ -16,16 +16,16 @@ function displayUrl(form) {
   let googleMapsUrl = googleMapsBaseUrl + googleParams;
 
   let shieldsVisualParams = {};
-  ["label", "logo", "color", "style"].forEach(e => {
+  let label = document.getElementById("label").value;
+  ["logo", "color", "style"].forEach(e => {
     let formVal = document.getElementById(e).value.trim();
     if (formVal != "") {
       shieldsVisualParams[e] = formVal;
     }
   });
 
-  console.log(shieldsVisualParams);
-
   let shieldsParams = new URLSearchParams({
+    label,
     ...shieldsVisualParams,
     url: googleMapsUrl,
     query: "$.rows[0].elements[0].duration_in_traffic.text"
