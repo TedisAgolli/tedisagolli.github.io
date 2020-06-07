@@ -16,4 +16,4 @@ Live-bookmarks understands that collecting cool and interesting resources is no 
 
 ## Install links below:
 
-[![chrome](/assets/chrome.png)](<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/dmihmacgmljciebmenpanbfkllboajkl">)
+[![chrome](/assets/chrome.png)](https://chrome.google.com/webstore/detail/dmihmacgmljciebmenpanbfkllboajkl)
