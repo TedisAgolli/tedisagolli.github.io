@@ -4,35 +4,27 @@ title: Commute time badge generator
 excerpt_separator: <!--more-->
 ---
 
-<meta charset="utf-8" />
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  crossorigin="anonymous"
-/>
-<html>
+This form helps you generate a badge that displays the commute time
+between two points. **For example**: ![example](/assets/commute/exampleTile.png)
+It uses the [Google Maps API Distance Matrix](https://developers.google.com/maps/documentation/distance-matrix/intro)
+  
+to get the travel distance and
+[shields.io](https://shields.io/) to generate the badge. I
+built this for people who want to include a commute tile in their
+SharpTools dashboard, but the generated badge can be used for
+anything.
+
+  <meta charset="utf-8" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <html>
   <script src="/assets/commute/script.js"></script>
   <body>
     <div class="container">
-      <div class="row">
-        <p style="font-size:1.5rem">
-          This form helps you generate a badge that displays the commute time
-          between two points. <br/>For example: <img src="/assets/commute/exampleTile.png" />
-          <br />
-          It uses the
-          <a
-            href="https://developers.google.com/maps/documentation/distance-matrix/intro"
-            >Google Maps API Distance Matrix</a
-          >
-          to get the travel distance and
-          <a href="https://shields.io/">shields.io</a> to generate the badge. I
-          built this for people who want to include a commute tile in their
-          SharpTools dashboard, but the generated badge can be used for
-          anything.
-        </p>
-      </div>
-      <!--more-->
       <div class="row">
         <form class="col-lg-6 offset-lg-3 ">
           <h3 class="text-center">Google Maps</h3>
