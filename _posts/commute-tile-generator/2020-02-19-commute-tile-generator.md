@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
   <body>
     <div class="container">
       <div class="row">
-        <p  style="font-size:1.5rem">
+        <p style="font-size:1.5rem">
           This form helps you generate a badge that displays the commute time
           between two points. <br/>For example: <img src="/assets/commute/exampleTile.png" />
           <br />
