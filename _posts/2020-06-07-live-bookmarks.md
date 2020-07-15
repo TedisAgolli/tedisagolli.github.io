@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 Live-bookmarks is a simple extension manager with the added goal of forcing you to prioritize. The difference to a normal bookmark manager is that you can only have up to 5 saved bookmarks at any time. This helps you stop hoarding links that you will never read.
 
-## Get on Chrome:
+## Get it on Chrome:
 
 [![chrome](/assets/chrome.png)](https://chrome.google.com/webstore/detail/dmihmacgmljciebmenpanbfkllboajkl)
 
