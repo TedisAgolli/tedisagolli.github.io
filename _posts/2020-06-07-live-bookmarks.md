@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Live-bookmarks
+title: Runneth
 excerpt_separator: <!--more-->
 ---
 
-![logo](https://raw.githubusercontent.com/TedisAgolli/live-bookmarks/master/public/volcano128.png)
+![logo](/assets/runneth_banner.png)
 
-Live-bookmarks is a bookmark manager with the added goal of forcing you to prioritize. The difference to a normal bookmark manager is that you can only have up to 5 saved bookmarks at any time. This helps you stop hoarding links that you will never read.
+Runneth is a bookmark manager with the added goal of forcing you to prioritize. The difference to a normal bookmark manager is that you can only have up to 5 saved bookmarks at any time. This helps you stop hoarding links that you will never read.
 
-## Get it on Chrome:
+### Get it on Chrome:
 
 [![chrome](/assets/chrome.png)](https://chrome.google.com/webstore/detail/dmihmacgmljciebmenpanbfkllboajkl)
 
