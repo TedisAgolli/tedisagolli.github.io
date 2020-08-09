@@ -8,9 +8,10 @@ excerpt_separator: <!--more-->
 
 Runneth is a bookmark manager with the added goal of forcing you to prioritize. The difference to a normal bookmark manager is that you can only have up to 5 saved bookmarks at any time. This helps you stop hoarding links that you will never read.
 
-### Get it on Chrome:
+### Download Extension:
 
-[![chrome](/assets/chrome.png)](https://chrome.google.com/webstore/detail/dmihmacgmljciebmenpanbfkllboajkl)
+<a href="https://chrome.google.com/webstore/detail/dmihmacgmljciebmenpanbfkllboajkl" target="_blank"><img src='/assets/chrome.png'/></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/runneth/?src=search" target="_blank"><img src='/assets/firefox.png'/></a>
 
 <!--more-->
 
